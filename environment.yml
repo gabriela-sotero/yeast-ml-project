@@ -1,0 +1,21 @@
+name: machine-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - ipykernel
+  - scipy
+  - plotly
+  - pip
+  - pip:
+    - openpyxl
+    - xlrd
+
