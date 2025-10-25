@@ -1,0 +1,1 @@
+Macro-F1 curves show moderate gap indicating balanced bias-variance, with test performance struggling to exceed random-baseline macro-F1. The model benefits markedly from additional training data (Δ=0.238). Inductive bias: High-variance, low-bias learner that memorizes training data unless pruned. The gap narrows as training size increases, indicating improved regularization.

@@ -85,7 +85,7 @@ src/
   - `plot_correlation_matrix()`: Feature correlation heatmap
   - `plot_confusion_matrix()`: Confusion matrix visualization
   - `plot_model_comparison()`: Model performance comparison
-  - `plot_learning_curves()`: Learning curve analysis
+  - `plot_metric_sweep_learning_curves()`: Stratified metric sweep learning curves
 - **Features**:
   - High-resolution plots
   - Automatic saving
