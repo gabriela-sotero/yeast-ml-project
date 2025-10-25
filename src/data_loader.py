@@ -17,11 +17,15 @@ def load_yeast_data():
     """
     # Column names for the Yeast dataset
     column_names = [
-        'mcg', 'gvh', 'alm', 'mit', 'erl', 'pox', 'vac', 'nuc', 'class'
+        'seq_name', 'mcg', 'gvh', 'alm', 'mit', 'erl', 'pox', 'vac', 'nuc', 'class'
     ]
     
     # Load the data
-    data = pd.read_csv(YEAST_DATA_PATH, sep=r'\s+', names=column_names)
+    data = pd.read_csv(YEAST_DATA_PATH, sep=r'\s+', header=None)
+
+    data.columns = column_names
+
+    data = data.set_index('seq_name')
     
     return data
 
