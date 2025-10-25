@@ -1,0 +1,1 @@
+Macro-F1 curves show pronounced train-test gap signalling high variance, with test performance solid but improvable macro-F1. The model benefits markedly from additional training data (Δ=0.201). Inductive bias: Instance-based learner where k controls bias-variance; sensitive to neighborhood size. The gap narrows as training size increases, indicating improved regularization.

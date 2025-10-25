@@ -1,0 +1,1 @@
+Macro-F1 curves show moderate gap indicating balanced bias-variance, with test performance solid but improvable macro-F1. The model benefits markedly from additional training data (Δ=0.122). Inductive bias: Linear decision boundaries with L2/L1 regularization to control variance. The gap narrows as training size increases, indicating improved regularization.
