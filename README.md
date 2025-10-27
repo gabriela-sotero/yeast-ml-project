@@ -5,7 +5,7 @@ A comprehensive machine learning project using the **Yeast dataset** (UCI) that 
 ## 📁 Project Structure
 
 ```
-machine-learning/
+yeast-ml-project/
 ├── README.md
 ├── requirements.txt
 ├── environment.yml                  # Conda environment file
@@ -62,14 +62,14 @@ machine-learning/
 
 ### Option 1: Using pip
 ```bash
-git clone https://github.com/gabriela-sotero/machine-learning.git
+git clone https://github.com/gabriela-sotero/yeast-ml-project.git
 cd machine-learning
 pip install -r requirements.txt
 ```
 
 ### Option 2: Using conda
 ```bash
-git clone https://github.com/gabriela-sotero/machine-learning.git
+git clone https://github.com/gabriela-sotero/yeast-ml-project.git
 cd machine-learning
 conda env create -f environment.yml
 conda activate machine-learning
